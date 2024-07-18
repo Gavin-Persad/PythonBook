@@ -49,7 +49,7 @@ clues would be Fermi Pico.'''.format(NUM_DIGITS))
 
 def getSecretNum():
     """Returns a string made up of NUM_DIGITS unique random digits."""
-    numbers = list('0123456789') 
+    numbers = list('0123456789')
     random.shuffle(numbers)
 
     secretNum = ''
