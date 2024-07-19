@@ -12,7 +12,7 @@ def getBirthdays(numberOfBirthdays):
         randomNumberOfDays = datetime.timedelta(random.randint(0, 364))
         birthday = startOfYear + randomNumberOfDays
         birthdays.append(birthday)
-        return birthdays
+    return birthdays
 
 def getMatch(birthdays):
     """Returns the date object of a birthday that occurs more than once
@@ -39,8 +39,7 @@ simulations) to explore this concept.
 ''')
 
 # Set up a tuple of month names in order:
-MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
+MONTHS = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
 while True: # Keep asking until the user enters a valid amount.
     print('How many birthdays shall I generate? (Max 100)')
