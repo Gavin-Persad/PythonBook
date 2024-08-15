@@ -49,4 +49,4 @@ for line in bitmap.splitlines():
         else:
 # Print a character from the message:
             print(message[i % len(message)], end='')
-        print() # Print a newline.
+    print() # Print a newline.
